@@ -1,30 +1,18 @@
-# React + TypeScript + Vite
+# Consultor del Estado del Clima 🌤
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+***Este proyecto es un consultor del estado del clima desarrollado utilizando React, TypeScript y Zod. Proporciona una interfaz simple para que los usuarios ingresen la ubicación y obtengan información actualizada sobre el clima en esa área.***
 
-Currently, two official plugins are available:
+## Funcionalidades
+* Consulta de Clima: Los usuarios pueden ingresar la ubicación deseada y obtener información detallada sobre el clima en esa área.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Interfaz Amigable: La interfaz de usuario es intuitiva y fácil de usar, lo que permite a los usuarios obtener la información que necesitan de manera rápida y eficiente.
 
-## Expanding the ESLint configuration
+##Tecnologías Utilizadas
+** React**: Utilizamos React como la biblioteca principal para construir la interfaz de usuario del proyecto.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**TypeScript**: TypeScript se utiliza para agregar tipos estáticos a JavaScript, lo que hace que el código sea más robusto y mantenible.
 
-- Configure the top-level `parserOptions` property like this:
+**Zod** : Zod se utiliza para la validación de datos, En este proyecto lo use para Typar los resultado consultados de la Api
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+En este proyecto se uso la siguiente API: https://openweathermap.org/api
+*!* Recuerda que tienes que crearte una api key para hacer las peticiones a la API
