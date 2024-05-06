@@ -8,11 +8,11 @@
 * Interfaz Amigable: La interfaz de usuario es intuitiva y fácil de usar, lo que permite a los usuarios obtener la información que necesitan de manera rápida y eficiente.
 
 ##Tecnologías Utilizadas
-** React**: Utilizamos React como la biblioteca principal para construir la interfaz de usuario del proyecto.
+* React: Utilizamos React como la biblioteca principal para construir la interfaz de usuario del proyecto.
 
-**TypeScript**: TypeScript se utiliza para agregar tipos estáticos a JavaScript, lo que hace que el código sea más robusto y mantenible.
+* TypeScript: TypeScript se utiliza para agregar tipos estáticos a JavaScript, lo que hace que el código sea más robusto y mantenible.
 
-**Zod** : Zod se utiliza para la validación de datos, En este proyecto lo use para Typar los resultado consultados de la Api
+* Zod : Zod se utiliza para la validación de datos, En este proyecto lo use para Typar los resultado consultados de la Api
 
 En este proyecto se uso la siguiente API: https://openweathermap.org/api
-*!* Recuerda que tienes que crearte una api key para hacer las peticiones a la API
+! Recuerda que tienes que crearte una api key para hacer las peticiones a la API
