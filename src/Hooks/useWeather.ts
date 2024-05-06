@@ -36,7 +36,7 @@ export default function useWeather(){
 
     const fechtWeather = async (search : SearchType) => {
 
-        const ApiID = import.meta.env.VITE_API_KEY
+        const ApiID = //Crea tu Api Key 🔑
         setLoading(true)
         setWeather(initialState)
         try {
